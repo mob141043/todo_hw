@@ -1,0 +1,28 @@
+.todo {
+  .todo__content {
+    .todo--item {
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0;
+      border-bottom: 1px solid #eee;
+
+      .remove {
+        color: red;
+        font-weight: bold;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+
+      &.completed {
+        span {
+          &:nth-child(2) {
+            text-decoration: line-through;
+            color: gray;
+            font-style: italic;
+          }
+        }
+
+      }
+    }
+  }
+}
