@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "id": 1,
+      "name": "Harry",
+      "email": "Harry@mail.com"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Harry",
+      "isCompleted": false
+    },
+    {
+      "name": "ádasdas",
+      "isCompleted": false,
+      "id": 4
+    },
+    {
+      "name": "sadsadasd",
+      "isCompleted": false,
+      "id": 5
+    },
+    {
+      "name": "dvxcvxcvxcvx",
+      "isCompleted": false,
+      "id": 7
+    }
+  ]
+}
